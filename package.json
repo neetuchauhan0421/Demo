@@ -11,6 +11,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.20.0",
+    "gh-pages": "^3.1.0",
     "jsonwebtoken": "^8.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -21,15 +22,14 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
-  "homepage": "https://neetuchauhan0421.github.io/ScalenutDemo/",
+  "homepage": "http://neetuchauhan0421.github.io/ScalenutDemo/",
   "scripts": {
     "start": "set PORT=5000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
-    
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
